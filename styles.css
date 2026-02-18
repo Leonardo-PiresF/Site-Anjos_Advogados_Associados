@@ -25,3 +25,11 @@ html {
 .map-grayscale {
     filter: grayscale(100%) invert(90%) contrast(80%);
 }
+
+@media (min-width: 1024px) {
+    body {
+        zoom: 0.75;
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
